@@ -32,6 +32,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="25" y="36"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CKT-8c-1Bh">
@@ -522,11 +523,23 @@
                                     <action selector="githubButtonPressed:" destination="wGB-ix-pMR" eventType="touchUpInside" id="uzV-JA-hQ0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1u-RK-QMY">
+                                <rect key="frame" x="88" y="605" width="129" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="Zgu-cX-wPc"/>
+                                    <constraint firstAttribute="height" constant="20" id="jIY-Sm-SM5"/>
+                                </constraints>
+                                <state key="normal" image="img_romerock_logo"/>
+                                <connections>
+                                    <action selector="romerockButtonPressed:" destination="wGB-ix-pMR" eventType="touchUpInside" id="j7E-Mz-yjy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1647058824" green="0.18823529410000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="lWV-LS-VCf" firstAttribute="leading" secondItem="HOF-DG-xj3" secondAttribute="trailing" constant="30" id="0mX-pd-urs"/>
                             <constraint firstItem="bzf-5r-ml4" firstAttribute="leading" secondItem="Iqf-hX-XUz" secondAttribute="leading" constant="19" id="3Du-5Z-BKb"/>
+                            <constraint firstItem="G1u-RK-QMY" firstAttribute="leading" secondItem="Iqf-hX-XUz" secondAttribute="leading" constant="88" id="3LO-Aq-pTl"/>
                             <constraint firstItem="KdO-ko-TYa" firstAttribute="width" secondItem="KdO-ko-TYa" secondAttribute="height" multiplier="1:1" id="I9N-QU-GoD"/>
                             <constraint firstItem="lWV-LS-VCf" firstAttribute="centerY" secondItem="HOF-DG-xj3" secondAttribute="centerY" id="P2N-2R-eKx"/>
                             <constraint firstItem="HOF-DG-xj3" firstAttribute="leading" secondItem="Iqf-hX-XUz" secondAttribute="leading" constant="32" id="R15-Zq-gBo"/>
@@ -535,6 +548,7 @@
                             <constraint firstItem="HOF-DG-xj3" firstAttribute="top" secondItem="bzf-5r-ml4" secondAttribute="bottom" constant="68" id="r6g-oa-DWT"/>
                             <constraint firstItem="lWV-LS-VCf" firstAttribute="width" secondItem="lWV-LS-VCf" secondAttribute="height" multiplier="1:1" id="wvv-T1-112"/>
                             <constraint firstItem="KdO-ko-TYa" firstAttribute="leading" secondItem="lWV-LS-VCf" secondAttribute="trailing" constant="30" id="xDV-GD-E2D"/>
+                            <constraint firstItem="d2N-PM-rWc" firstAttribute="top" secondItem="G1u-RK-QMY" secondAttribute="bottom" constant="42" id="xeU-gf-hsG"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -549,6 +563,7 @@
         <image name="ic_menu" width="16" height="15"/>
         <image name="ic_twitter" width="54" height="54"/>
         <image name="img_path" width="19" height="14"/>
+        <image name="img_romerock_logo" width="130" height="20"/>
         <image name="img_romerock_logo_gray" width="99" height="16"/>
     </resources>
 </document>

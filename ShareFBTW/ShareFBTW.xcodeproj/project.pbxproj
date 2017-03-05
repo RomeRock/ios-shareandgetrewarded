@@ -341,6 +341,7 @@
 				3F0E86941E69ED4800B5DC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

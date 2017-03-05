@@ -32,6 +32,9 @@ class MenuViewController: UIViewController {
     @IBAction func githubButtonPressed(_ sender: Any) {
         UIApplication.shared.open(URL(string:"https://github.com/RomeRock")!)
     }
+    @IBAction func romerockButtonPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"http://romerock.com")!)
+    }
     
     /*
     // MARK: - Navigation
